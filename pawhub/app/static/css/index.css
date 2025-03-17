@@ -1,0 +1,163 @@
+*{
+    /*font-size: 12px;*/
+    margin: 0;
+    padding: 0;
+    font-family: Bahnschrift;
+    font-size: 18px;
+    text-wrap-mode: wrap;
+}
+body{
+    width: 100vw;
+}
+h1{
+    font-size: 3rem;
+    font-family: Montserrat;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    /* color: #646464; */
+    /*color: #58a79d;*/
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-family: Montserrat,sans-serif;
+    font-weight: 500;
+
+}
+h2{
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 1.3rem;
+    /* color: rgba(55, 57, 57, 0.8); */
+}
+h3{
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+.button{
+    background: #ff8a00;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+.button:hover{
+    color: black;
+    transition: all ease 0.2s;
+    background: white;
+}
+.nav-link:hover::after {
+    display: block;
+    content: "";
+    position: absolute;
+    margin-top: .75rem;
+    background: #ff8a00;
+    width: 1rem;
+    height: 2px;
+}
+nav{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+#SignIn{
+    margin-left: -20px;
+    margin-right: 20px;
+}
+#section1{
+    width: 100%;
+    height: 90vh;
+}
+#section1::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100%;
+    background: url("images/bg1.jpg") no-repeat center center/cover;
+    overflow: hidden;
+    z-index: -1;
+}
+#section2{
+    margin-top: 4rem;
+}
+#section2 h1{
+    font-weight: 700;
+    font-size: 2rem;
+}
+#section2 h1::after{
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: .75rem;
+    background: #ff8a00;
+    width: 100%;
+    height: 2px;
+}
+.steps_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 250px;
+    box-shadow: 10px -5px 15px 2px rgba(0, 0, 0, 0.377);
+    border-radius: 8px;
+    border: 0.1px solid rgba(0, 0, 0, 0.177);
+}
+
+#section3{
+    background-color: #272E37;
+    height: max-content;
+    width: 100%;
+}
+#section3 h1{
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+#section3 h2{
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+#section3 h3{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+#section3 h1::after{
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: .75rem;
+    background: #ff8a00;
+    width: 100%;
+    height: 2px;
+}
+
+#section4{
+    height: max-content;
+    width: 100%;
+}
+#section4 h1::after{
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: .75rem;
+    background: #ff8a00;
+    width: 100%;
+    height: 2px;
+}
+#section4 h1{
+    font-weight: 700;
+    font-size: 2rem;
+}
+#section4 .button:hover{
+    background-color: #e97d03;
+    color: white;
+}
+
+#section4 .input-group .form-control:focus{
+    box-shadow: none;
+    border: 1px solid black;
+    border-radius: 5px;
+}
